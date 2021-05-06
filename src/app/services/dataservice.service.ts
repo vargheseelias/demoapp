@@ -25,5 +25,13 @@ login(uid:any,pswd:any){
   return this.http.post('http://localhost:3000/login',data)
 }
 
+buy(uid:any,pswd:any){
+  const data={
+    uid,
+    pswd,
+  }
+  return this.http.post('http://localhost:3000/buy',data)
+}
+
 
 }

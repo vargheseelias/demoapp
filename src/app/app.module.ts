@@ -8,12 +8,14 @@ import { LoginComponent } from './login/login.component';
 import { from } from 'rxjs';
 import{HttpClientModule} from '@angular/common/http';
 import { UserhomeComponent } from './userhome/userhome.component';
+import { PurchaseComponent } from './purchase/purchase.component';
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
     UserhomeComponent,
+    PurchaseComponent,
     
   ],
   imports: [
